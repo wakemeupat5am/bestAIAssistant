@@ -23,6 +23,11 @@ Michail Utrobin (Data science)
 Arsenyi Kulbako (Dart Flutter frontend)
 
 
+### Solution scheme:
+
+<img src="https://github.com/wakemeupat5am/bestAIAssistant/blob/main/plan.png">
+
+
 
 ### To start using:
 
