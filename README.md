@@ -1,39 +1,37 @@
-Решение команды ГАМК
+GABA 
 
 # DEEPHACK.AGENTS
 
-Разработай собственного ИИ-ассистента для науки на базе GigaChain
+Develop your own AI agent with GigaChain
 
-Решение:
+Our solution:
 
-## Лучший научный ассистент
+## Best AI Assistant for scientists
 
+Functionality:
 
-
-Функционал:
-
-### **Агент диалога вопросно-ответной системы по статьям с сайта researchgate.net Парсинг+RAG (система вопрос ответов по выбранной научной тематике)**
+### **Question and Answer agent withresearchgate.net as its Database, Parsing+RAG (QNA system on Science based themes)**
 
 
 
-**Команда:**
+**Our team:**
 
-Габиден Сагинтай (python backend)
+Gabiden Sagintay (Python backend)
 
-Михаил Утробин (Data science)
+Michail Utrobin (Data science)
 
-Арсений Кульбако (Dart Flutter frontend)
+Arsenyi Kulbako (Dart Flutter frontend)
 
 
 
-### Для запуска необходимо:
+### To start using:
 
-1)  Отредактировать .env файл с переменными окружения
+1) Edit .env file with these variables:
 
-   1) Заполнить переменную окружения sber_auth - токен GigaChat
-   2) Заполнить переменную окружения data_path - путь к создаваемой базе данных chroma db
+   1) Variable sber_auth - GigaChat token
+   2) Variable data_path - chroma db link
 
-2) Установить библиотеки
+2) Install libraries
 
    ```bash
    pip install -r requirements.txt
@@ -41,13 +39,13 @@
 
    
 
-3) Запуск полного примера (парсинг + RAG система)
+3) Run Python file (parse + RAG system)
 
    ```bash
    python parse_example.py
    ```
 
-4. Запуск примера с диалогом по уже загруженным документам с сайта researchgate.net
+4. Launch example: researchgate.net
 
    
     ```
