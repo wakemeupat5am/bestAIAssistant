@@ -1,6 +1,6 @@
 GABA 
 
-# DEEPHACK.AGENTS
+# DEEPHACK.AGENTS HACKATHON
 
 Develop your own AI agent with GigaChain
 
